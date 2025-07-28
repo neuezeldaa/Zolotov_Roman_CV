@@ -1,0 +1,96 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage[T2A, T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian, english]{babel}
+\usepackage{fontspec} 
+
+\defaultfontfeatures{Ligatures={TeX},Renderer=Basic} 
+\setmainfont[Ligatures={TeX,Historic}]{Times New Roman}
+\selectlanguage{russian}
+
+% Formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+\begin{document}
+
+%-------------------- Заголовок --------------------
+\begin{center}
+    {\LARGE \textbf{Золотов Роман Владимирович}}\\
+    \vspace{2mm}
+    \normalsize \textbf {ML | Аналитик}\\
+    \vspace{2mm}
+    \faMapMarker*\ Санкт-Петербург\quad
+    \faEnvelope\ \href{mailto:z_roman_05@mail.ru}{z\_roman\_05@mail.ru} \quad
+    \faPhone\ +7 (962) 630-93-76 \quad\\
+    \vspace{2mm}
+    \faTelegramPlane\ \href{https://t.me/neuezeldaa}{https://t.me/neuezeldaa} \quad
+    \faGithub\ \href{https://github.com/neuezeldaa}{github.com/neuezeldaa} \\
+\end{center}
+
+%-------------------- Профиль --------------------
+\section*{\faMale \hspace{0.5em} Профиль}
+Студент 3 курса СПбГЭТУ "ЛЭТИ" по специальности "Радиотехника. Системы компьютерного зрения". Имею опыт в Машинном Обучении, визуализации и анализе данных, работы с фильтрами и контурами в компьютерном зрении.
+Проводил полный цикл A/B тестирования. Писал программы на Python и C++. Готов расширять знания в теории и применять их на практике.
+
+%-------------------- Навыки --------------------
+\section*{\faWrench \hspace{0.5em} Технические навыки}
+\begin{tabular}{ l l }
+    \textbf{Языки Программироавния:} & Python, C++, Go, SQL \\
+    \textbf{Фреймворки:} & PyTorch, OpenCV, MFC, scikit-learn, mathplotlib, numpy \\
+    \textbf{Инструменты:} & Git,, YouGile, Linux, Jupyter Notebook (Google colab), LaTeX\\
+\end{tabular}
+
+%-------------------- Образование --------------------
+
+\section*{\faUniversity \hspace{0.5em} Образование}
+\textbf{СПбГЭТУ ЛЭТИ, Санкт-Петербург} \hfill \textit{ 2023-2027} \\
+\textit{Бакалавриат "Радиотехника. Системы компьютерного зрения"} \\
+
+%-------------------- Проекты --------------------
+\section*{\faProjectDiagram \hspace{0.5em} Pet-проекты} 
+\begin{itemize}
+    \item \textbf{Статья с решением задачи Titanic на Kaggle для новичков в ML} \hfill 2025\\
+    \textit{Python, Jupyther Notebook, PyTorch, Kaggle}
+    \begin{itemize}
+        \item[--] Пошаговый анализ признаков с визуализацией.
+        \item[--] Реализация и обучение Многослойной Нейронной сети.
+        \item[--] Применение методов машинного обучения (LR, RandomForest и др.).
+    \end{itemize}
+
+    \item \textbf{Отслеживание перемещения объекта} \hfill 2025\\
+    \textit{C++, Python, OpenCV, Linux}
+    \begin{itemize}
+        \item[--] Использование фильтров для выявления контура объекта.
+        \item[--] Отсчет времени перемещения объекта между двумя точками.
+        \item[--] Отслеживание объекта идет с веб-камеры.
+    \end{itemize}
+
+    \item \textbf{Страница на GitHub с решением задач на CodeRun} \hfill 2025\\
+    \textit{C++, Python, Jupyter Notebook, CodeRun}
+    \begin{itemize}
+        \item[--] Удобное представление списка задач в Readme.md 
+        \item[--] Ознакомление с алгоритмами и структурами данных
+	 \item[--] Широкий спектр тематик задач (Аналитика, Backend, ML) 
+    \end{itemize}
+
+    \item \textbf{Разработка графического приложения для построения графиков функций} \hfill 2025\\
+    \textit{C++, MFC, ООП}
+    \begin{itemize}
+        \item[--] Оконное графическое приложение с MFC
+        \item[--] User-friendly интерфейс
+    \end{itemize}
+\end{itemize}
+
+%-------------------- Дополнительно --------------------
+\section*{Дополнительная информация}
+\begin{itemize}
+    \item Увлечения: Алгоритмы, Математика, Спорт 
+\end{itemize}
+
+\end{document}
